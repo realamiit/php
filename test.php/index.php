@@ -111,10 +111,40 @@
             echo "<br>";
             echo "The value of myVar is:";
             echo var_dump($myVar);  //the var_dump shows boolean value of myVar
-              
-
-
+            echo "The value of myVar2 is:";
+            echo var_dump($myVar2);  //the var_dump shows boolean value of myVar2
+            echo "The value of myVar3 is:";
+            echo var_dump($myVar3);  //the var_dump shows boolean value of myVar3
+            echo "The value of myVar4 is:";     
+            echo var_dump($myVar4);  //the var_dump shows boolean value of myVar4
+            echo "The value of myVar5 is:";
+            echo var_dump($myVar5);  //the var_dump shows boolean value of myVar5
+            echo "The value of myVar6 is:";
+            echo var_dump($myVar6);  //the var_dump shows boolean value of myVar6       
             ?>
+
+            <br>
+
+            <?php
+               echo "break statement in pHp <br>  Data typres in pHp <br>";
+               //Data types in pHp
+                //1. String
+                //2. Integer
+                //3. Float
+                //4. Boolean
+                //5. Array
+                //6. Object
+                //7. NULL
+                //8. Resource
+
+                
+                //String        
+                $var1 = "This is a string";
+                echo "The value of var1 is:";
+                echo var_dump($var1); <br>
+                   
+
+               ?>
         </div>
 </body>
 </html>
